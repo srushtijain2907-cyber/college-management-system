@@ -1,0 +1,38 @@
+# ── Node modules (never push these, very large) ──
+node_modules/
+demo/node_modules/
+server/node_modules/
+ 
+# ── Environment variables (contains passwords, never push) ──
+.env
+server/.env
+demo/.env
+ 
+# ── Build output ──
+dist/
+demo/dist/
+build/
+ 
+# ── Logs ──
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ── VS Code settings ──
+.vscode/
+*.code-workspace
+ 
+# ── Vite cache ──
+.vite/
+demo/.vite/
+ 
+# ── Misc ──
+*.local
+.cache/
+ 
